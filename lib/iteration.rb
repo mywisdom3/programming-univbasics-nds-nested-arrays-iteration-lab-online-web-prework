@@ -19,7 +19,10 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   find_greater_pair =[
-    
+    [[-1, -900],
+    [10, 30], 
+    [0, 0], 
+    [14, 16 * -2.5]
     ]
 end
 
