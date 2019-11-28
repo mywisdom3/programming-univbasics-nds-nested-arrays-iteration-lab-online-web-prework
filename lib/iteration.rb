@@ -24,6 +24,19 @@ def find_greater_pair(src)
     [0, 0], 
     [14, 16 * -2.5]
     ]
+    outer_results = []
+row_index = 0
+while row_index < find_greater_pair.count do
+  element_index = 0
+  inner_results = []
+  while element_index < find_greater_pair[row_index].count do
+       if find_greater_pair[row_index][element_index][0] == "P"
+      inner_results << find_greater_pair[row_index][element_index]
+    end
+    element_index += 1
+  end
+  outer_results << inner_results
+  row_index += 1
 end
 
 def total_even_pairs(src)
