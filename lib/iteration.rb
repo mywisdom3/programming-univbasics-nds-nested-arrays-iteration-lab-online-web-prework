@@ -8,9 +8,8 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
 join_ingredients = [
  ["pepperoni", "sausage"],
- [
- 'green olives', 'green peppers'], 
- ['onions', 'pineapple']]
+ [ "green olives", "green peppers"], 
+ ["onions", "pineapple']]
 end
 
 def find_greater_pair(src)
